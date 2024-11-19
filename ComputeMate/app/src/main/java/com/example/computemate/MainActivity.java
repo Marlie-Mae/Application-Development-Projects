@@ -1,16 +1,12 @@
 package com.example.computemate;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import org.w3c.dom.Text;
-
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -42,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else
             return Integer.parseInt(editText.getText().toString());
         }
+    
     @Override
     public void onClick(View v) {
         num1 = getIntFromEditText(text1);
